@@ -69,3 +69,30 @@ table tr td:focus, table tr th:focus {
 li{
     list-style-position: inside;
 }
+
+.video-section {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+.video-section video {
+    width: 60%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.transcription {
+    width: 35%;
+    height: 300px;
+    overflow-y: auto;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f7f7f7;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.transcription h3 {
+    margin-top: 0;
+    color: #0056b3;
+}
